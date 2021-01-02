@@ -1,0 +1,67 @@
+@mixin button {
+  color: var(--white, #fff);
+  padding: 1em 3em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border: 0.1em solid var(--white, #fff);
+  box-shadow: 0 0 0.3em 0.2em rgba(255, 255, 255, 0.5),
+              0 0 0.5em 0.4em rgba(255, 255, 255, 0.5);
+  outline: none;
+  &:hover {
+    background-color:var(--white, #fff);
+    border-color: var(--white, #fff);
+    color: var(--gray-dark, #343a40);
+    transition: all 0.5s ease-in;
+  }
+  &:active{
+    color:var(--gray-dark, #343a40);
+    background-color: var(--white, #fff);
+    border-color: var(--white, #fff);
+    box-shadow: 0 0 0 0.3em rgba(0, 0, 0, 0.4);
+    outline: none;
+  }
+  &:focus {
+    color:var(--gray-dark, #343a40);
+    background-color: var(--white, #fff);
+    border-color: var(--white, #fff);
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  
+}
+
+@mixin Item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--white, #fff);
+}
+
+@mixin flexSA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+    justify-content: space-around;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+}
+@mixin flexSB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+        align-items: center;
+}

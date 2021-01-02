@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import './mixin';
+@import './common';
+:root {
+    --black: #000;
+    --white: #fff;
+    --Red: #690102;
+    
+}
+body {
+    color: var(--white, #fff);
+    background-color: var(--black, #000)!important;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.carousel-indicators {
+    display: none;
+    @media (min-width: 48em) {
+        display: flex;
+    }
+}
+.carousel-caption {
+    top: 1em;
+    @media (min-width: 75em) {
+        top: 2em;
+        left: 15em;
+        text-align: left;
+    }
+}

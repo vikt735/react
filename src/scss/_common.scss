@@ -1,0 +1,103 @@
+.hideBlock {
+  display: none;
+  @media (min-width: 75em){
+    display: block; 
+  }
+}
+.filter {
+  filter: brightness(50%);
+}
+.button {
+  @include button;
+}
+.title_h1 {
+  font-size: 6rem;
+}
+.title_h2 {
+  font-size: 1.5rem;
+  @media (min-width: 48em){
+    font-size: 2.25rem; 
+  }
+}
+.p_bt {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @media (min-width: 48em) {
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
+  @media (min-width: 75em) {
+      padding-top: 5em;
+      padding-bottom: 5em;
+  }
+}
+.p_b {
+  padding-bottom: 1em;
+  @media (min-width: 48em) {
+    padding-bottom: 2em;
+}
+  @media (min-width: 75em) {
+    padding-bottom: 4em;
+}
+}
+.m_tit {
+  margin-bottom: 1em;
+  @media (min-width: 62em) {
+    margin-bottom: 1.5em;
+  }
+}
+.flex {
+  @media (min-width: 48em) {
+      @include flexSA;
+  }
+}
+.item {
+  @include Item;
+}
+.fz-3 {
+  font-size: 3rem;
+  @media (min-width: 62em) {
+      font-size: 4rem;
+  }
+}
+.fz {
+  font-size: 1.5rem;
+}
+.fz-1 {
+  font-size: 1rem;
+}
+.Red {
+  color: var(--Red, #690102);
+}
+.bg-red {
+  background-color: var(--Red, #690102);
+}
+.col1 {
+  @media (min-width: 48em) {
+    flex: 1 1 50%;
+    margin-right: 1em;
+  
+  }
+}
+.col2 {
+  @media (min-width: 48em) {
+    flex: 1 1 50%;
+  }
+  
+}
+.flexSB {
+  @media (min-width: 48em) {
+    @include flexSB;
+  }
+  
+}
+.img {
+  &:hover {
+    @media (min-width: 87.5em) {
+      transform: scale(1.07);
+      filter: brightness(100%);
+      transition: all 1s ease-in;
+    }
+    
+  }
+}

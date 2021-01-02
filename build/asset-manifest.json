@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da56345f.chunk.css",
+    "main.js": "/static/js/main.186d16bc.chunk.js",
+    "main.js.map": "/static/js/main.186d16bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de44ded0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de44ded0.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.08c6f133.chunk.js": "/static/js/2.08c6f133.chunk.js",
+    "static/js/2.08c6f133.chunk.js.map": "/static/js/2.08c6f133.chunk.js.map",
+    "static/js/3.a852e580.chunk.js": "/static/js/3.a852e580.chunk.js",
+    "static/js/3.a852e580.chunk.js.map": "/static/js/3.a852e580.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.da56345f.chunk.css.map": "/static/css/main.da56345f.chunk.css.map",
+    "static/js/2.08c6f133.chunk.js.LICENSE.txt": "/static/js/2.08c6f133.chunk.js.LICENSE.txt",
+    "static/media/advantag.1010bfc0.png": "/static/media/advantag.1010bfc0.png",
+    "static/media/logo.9413f561.svg": "/static/media/logo.9413f561.svg",
+    "static/media/salon.59f07a81.png": "/static/media/salon.59f07a81.png",
+    "static/media/slider1.b3e331f4.png": "/static/media/slider1.b3e331f4.png",
+    "static/media/slider2.802f1439.png": "/static/media/slider2.802f1439.png",
+    "static/media/slider3.e69767b6.png": "/static/media/slider3.e69767b6.png",
+    "static/media/speed.fc219ec5.png": "/static/media/speed.fc219ec5.png",
+    "static/media/tesla.8732c9a6.png": "/static/media/tesla.8732c9a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de44ded0.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.08c6f133.chunk.js",
+    "static/css/main.da56345f.chunk.css",
+    "static/js/main.186d16bc.chunk.js"
+  ]
+}
